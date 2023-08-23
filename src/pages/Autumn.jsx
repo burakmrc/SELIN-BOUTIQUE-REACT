@@ -1,5 +1,5 @@
 import React from "react";
-import "../../public/assets/autumn.css"
+// import "../../public/assets/autumn/autumn.css"
 function Autumn (){
    return(  
         <>
@@ -13,8 +13,9 @@ function Autumn (){
                 rel="stylesheet"
                 href="https://fonts.googleapis.com/css2?family=B612:wght@400&display=swap"
             />
+            <link rel="stylesheet" href="../../public/assets/autumn/autumn.css" />
             <div className="autumn">
-                <div className="head">
+                {/* <div className="head">
                 <nav className="text">
                     <a className="latest">Latest</a>
                     <a className="category">Category</a>
@@ -25,8 +26,8 @@ function Autumn (){
                     <img className="icons-item" alt="" src="../../public/autumn/group-2.svg" />
                 </button>
                 <img className="head-child" alt="" src="../../public/autumn/line-2@2x.png" />
-                </div>
-                <div className="fasl">
+                </div> */}
+                {/* <div className="fasl">
                 <img className="fasl-child" alt="" src="../../public/autumn/line-3.svg" />
                 <div className="summer-parent">
                     <a className="summer" id="summer">
@@ -40,7 +41,7 @@ function Autumn (){
                     Winter
                     </a>
                 </div>
-                </div>
+                </div> */}
                 <img
                 className="screenshot-20230114-201504-ins-icon"
                 alt=""
@@ -146,14 +147,14 @@ function Autumn (){
                     src="../../public/autumn/vuesaxoutlinearrowright.svg"
                 />
                 </button>
-                <div className="selin-boutique-parent">
+                {/* <div className="selin-boutique-parent">
                 <a className="selin-boutique">SELIN BOUTIQUE</a>{" "}
                 <img
                     className="boutique-symbol-of-corset-on-h-icon"
                     alt=""
                     src="../../public/autumn/boutique-symbol-of-corset-on-hanger-in-line-art-8420ld copy 1.png"
                 />
-                </div>
+                </div> */}
             </div>
         </>
    )

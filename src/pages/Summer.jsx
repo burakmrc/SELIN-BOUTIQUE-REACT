@@ -1,5 +1,5 @@
 import React from "react";
-import "../../public/assets/summer.css"
+// import "../../public/assets/summer/summer.css"
 function Summer (){
    return(
     <>
@@ -13,16 +13,17 @@ function Summer (){
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=B612:wght@400&display=swap"
     />
-    <div className="selin-boutique-parent">
+    <link rel="stylesheet" href="../../public/assets/summer/summer.css" />
+    {/* <div className="selin-boutique-parent">
       <div className="selin-boutique">SELIN BOUTIQUE</div>
       <img
         className="boutique-symbol-of-corset-on-h-icon"
         alt=""
         src="../../public/summer/logo.png"
       />
-    </div>
+    </div> */}
     <a className="summer">
-      <div className="head">
+      {/* <div className="head">
         <nav className="text">
           <div className="latest">Latest</div>
           <div className="category">Category</div>
@@ -33,8 +34,8 @@ function Summer (){
           <img className="icons-item" alt="" src="../../public/summer/group-2.png" />
         </button>
         <div className="head-child" />
-      </div>
-      <div className="fasl">
+      </div> */}
+      {/* <div className="fasl">
         <img className="fasl-child" alt="" src="../../public/summer/line.png" />
         <div className="summer-parent">
           <div className="summer1">Summer</div>
@@ -48,7 +49,7 @@ function Summer (){
             Winter
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="links">
         <button className="phinstagram-logo">
           <img className="vector-icon" alt="" src="../../public/summer/vector.svg" />

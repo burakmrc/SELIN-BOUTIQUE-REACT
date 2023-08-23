@@ -1,0 +1,213 @@
+.fasl-child {
+    position: absolute;
+    top: 0;
+    left: 2.38rem;
+    width: 0.13rem;
+    height: 46.75rem;
+  }
+  .summer {
+    position: absolute;
+    top: 24.56rem;
+    left: 0;
+    color: inherit;
+    width: 4.25rem;
+    cursor: pointer;
+  }
+  .autumn1,
+  .spring,
+  .summer {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 1.63rem;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+  }
+  .spring {
+    position: absolute;
+    top: 34.44rem;
+    left: 0;
+    color: inherit;
+    width: 3.63rem;
+    cursor: pointer;
+  }
+  .autumn1 {
+    top: 14.06rem;
+    color: inherit;
+    width: 4.06rem;
+  }
+  .autumn1,
+  .summer-parent,
+  .winter {
+    position: absolute;
+    left: 0;
+  }
+  .winter {
+    text-decoration: none;
+    top: 3.75rem;
+    text-transform: uppercase;
+    color: inherit;
+    display: inline-block;
+    width: 3.75rem;
+    height: 1.63rem;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+  }
+  .summer-parent {
+    top: 0.06rem;
+    width: 1.63rem;
+    height: 34.44rem;
+  }
+  .fasl {
+    position: absolute;
+    top: 8rem;
+    left: 5.13rem;
+    width: 2.44rem;
+    height: 46.75rem;
+  }
+  .autumn {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 69.81rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-archivo-narrow);
+  }
+
+  .category,
+.latest {
+  text-decoration: none;
+  top: 0;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.latest {
+  position: absolute;
+  left: 0;
+  color: inherit;
+  width: 3.44rem;
+  height: 1.5rem;
+}
+.category {
+  left: 7.19rem;
+  color: inherit;
+  width: 5.13rem;
+}
+.category,
+.offers,
+.text {
+  position: absolute;
+  height: 1.5rem;
+}
+.offers {
+  text-decoration: none;
+  top: 0;
+  left: 16.06rem;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  width: 3.75rem;
+}
+.text {
+  margin: 0;
+  top: 0.75rem;
+  left: 13rem;
+  width: 19.81rem;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-archivo-narrow);
+}
+.icons,
+.icons-child,
+.icons-item {
+  position: absolute;
+  top: 0;
+  height: 2.25rem;
+}
+.icons-child {
+  left: 0;
+  width: 2.34rem;
+}
+.icons,
+.icons-item {
+  left: 4.56rem;
+  width: 2.25rem;
+}
+.icons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 41rem;
+  width: 6.81rem;
+}
+.head-child {
+  position: absolute;
+  top: 1.94rem;
+  left: 0;
+  width: 9.88rem;
+  height: 0.13rem;
+  object-fit: cover;
+}
+.head {
+  position: absolute;
+  top: 2.5rem;
+  left: 55%;
+  width: 47.81rem;
+  height: 2.25rem;
+}
+
+.selin-boutique {
+    text-decoration: none;
+    position: absolute;
+    top: 2.06rem;
+    left: 4.25rem;
+    text-transform: uppercase;
+    color: inherit;
+    display: inline-block;
+    width: 17.5rem;
+    height: 1.13rem;
+  }
+  .boutique-symbol-of-corset-on-h {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.69rem;
+    height: 4.06rem;
+    background-image: url(./public/boutiquesymbolofcorsetonhangerinlineart8420ldcopy1@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .selin-boutique-parent {
+    position: absolute;
+    top: 1rem;
+    left: 10.69rem;
+    width: 21.75rem;
+    height: 4.06rem;
+    font-size: 1.25rem;
+    font-family: var(--font-b612);
+  }
+
+.summer.active {
+    color: #3cb87c;
+}
+
+.spring.active {
+    color: #3cb87c; 
+}
+
+.autumn1.active {
+    color: #d8996d; 
+}
+
+.winter.active {
+    color: #89cff0; 
+}

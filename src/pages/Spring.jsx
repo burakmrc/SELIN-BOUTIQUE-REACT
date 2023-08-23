@@ -1,5 +1,5 @@
 import React from "react";
-import "../../public/assets/spring.css"
+// import "../../public/assets/spring/spring.css"
 function Spring (){
    return(
     <>
@@ -13,8 +13,9 @@ function Spring (){
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=B612:wght@400&display=swap"
     />
+    <link rel="stylesheet" href="../../public/assets/spring/spring.css" />
     <div className="spring">
-      <div className="head">
+      {/* <div className="head">
         <nav className="text">
           <a className="latest">Latest</a>
           <a className="category">Category</a>
@@ -25,8 +26,8 @@ function Spring (){
           <img className="icons-item" alt="" src="../../public/spring/group-2.svg" />
         </button>
         <img className="head-child" alt="" src="../../public/spring//line-2@2x.png" />
-      </div>
-      <div className="fasl">
+      </div> */}
+      {/* <div className="fasl">
         <img className="fasl-child" alt="" src="../../public/spring/line-3.svg" />
         <div className="summer-parent">
           <a className="summer" id="summer">
@@ -40,7 +41,7 @@ function Spring (){
             Winter
           </a>
         </div>
-      </div>
+      </div> */}
       <div className="winter-collecction">
         <p className="we-all-need">
           We all need some fashion inspiration to accept ourselves and dress up in
@@ -152,7 +153,7 @@ function Spring (){
           />
         </button>
       </div>
-      <nav className="selin-boutique-parent">
+      {/* <nav className="selin-boutique-parent">
         <a className="selin-boutique">SELIN BOUTIQUE</a>
         <a className="boutique-symbol-of-corset-on-h">
           <img
@@ -161,7 +162,7 @@ function Spring (){
             src="../../public/spring/logo.png"
           />
         </a>
-      </nav>
+      </nav> */}
     </div>
   </>
   

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../public/assets/winter.css"
+// import "../../public/assets/winter/winter.css"
 function Winter (){
    return(
     <>
@@ -13,6 +13,7 @@ function Winter (){
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=B612:wght@400&display=swap"
         />
+        <link rel="stylesheet" href="../../public/assets/winter/winter.css" />
         <div className="winter">
         <nav className="image-1-parent" logo="">
             <img
@@ -20,9 +21,9 @@ function Winter (){
             alt=""
             src="../../public/winter/image-1@2x.png"
             />
-            <a className="selin-boutique">SELIN BOUTIQUE</a>
+            {/* <a className="selin-boutique">SELIN BOUTIQUE</a> */}
         </nav>
-        <div className="head">
+        {/* <div className="head">
             <nav className="text">
             <a className="latest">Latest</a>
             <a className="category">Category</a>
@@ -33,8 +34,8 @@ function Winter (){
             <img className="icons-item" alt="" src="../../public/winter/group-2.svg" />
             </button>
             <img className="head-child" alt="" src="../../public/winter/line-2@2x.png" />
-        </div>
-        <div className="fasl">
+        </div> */}
+        {/* <div className="fasl">
             <img className="fasl-child" alt="" src="../../public/winter/line-3.svg" />
             <nav className="summer-parent">
             <a className="summer" id="summerText">
@@ -48,7 +49,7 @@ function Winter (){
             </a>
             <a className="winter1">Winter</a>
             </nav>
-        </div>
+        </div> */}
         <div className="date">
             <div className="date-child" />
             <div className="date-item" />
