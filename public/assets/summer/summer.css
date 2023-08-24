@@ -1,135 +1,3 @@
-.category,
-.latest {
-  top: 0;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.latest {
-  position: absolute;
-  left: 0;
-  color: var(--color-mediumseagreen-100);
-  width: 55px;
-  height: 24px;
-}
-.category {
-  left: 115px;
-  width: 82px;
-}
-.category,
-.offers,
-.text {
-  position: absolute;
-  height: 24px;
-}
-.offers {
-  top: 0;
-  left: 257px;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 60px;
-}
-.text {
-  margin: 0;
-  top: 12px;
-  left: 208px;
-  width: 317px;
-  text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);
-  font-family: var(--font-archivo-narrow);
-}
-.icons,
-.icons-child,
-.icons-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 37.5px;
-  height: 36px;
-}
-.icons,
-.icons-item {
-  left: 73px;
-  width: 36px;
-}
-.icons {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  left: 656px;
-  width: 109px;
-}
-.head-child {
-  position: absolute;
-  top: 30px;
-  left: -1px;
-  border-top: 2px solid var(--color-black);
-  box-sizing: border-box;
-  width: 160px;
-  height: 2px;
-}
-.fasl-child,
-.head {
-  position: absolute;
-  top: 104px;
-  left: 843px;
-  width: 765px;
-  height: 36px;
-}
-.fasl-child {
-  top: 0;
-  left: 38px;
-  width: 2px;
-  height: 776.5px;
-}
-.autumn,
-.spring,
-.summer1,
-.winter {
-  position: absolute;
-  left: 0;
-  text-transform: uppercase;
-  display: inline-block;
-  height: 26px;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-}
-.summer1 {
-  top: 393px;
-  color: var(--color-mediumseagreen-100);
-  width: 68px;
-}
-.autumn,
-.spring,
-.winter {
-  top: 551px;
-  width: 58px;
-  cursor: pointer;
-}
-.autumn,
-.winter {
-  top: 225px;
-  width: 65px;
-}
-.winter {
-  top: 60px;
-  width: 60px;
-}
-.fasl,
-.summer-parent {
-  position: absolute;
-  top: 1px;
-  left: 0;
-  width: 26px;
-  height: 551px;
-}
-.fasl {
-  top: 240px;
-  left: 82px;
-  width: 39px;
-  height: 776.5px;
-}
 /* .trends,
 .trends-child {
   position: absolute;
@@ -153,7 +21,7 @@
   left: 1195px;
 } */
 .trends,
-.trends-child{
+.trends-child {
   position: absolute;
   width: 100%;
   height: 533px;
@@ -163,7 +31,7 @@
 .trends-child {
   top: 0;
   left: 0;
-  background-color: rgba(60, 184, 124, 0.10);
+  background-color: rgba(60, 184, 124, 0.1);
   backdrop-filter: blur(45.66px);
 }
 .we-all-need {
@@ -245,8 +113,8 @@
 }
 .winter-collecction {
   position: absolute;
-  top: 240px;
-  left: 186px;
+  top: 120px;
+  left: 240px;
   width: 376px;
   height: 315.62px;
   font-size: 23px;
@@ -254,21 +122,21 @@
 .screenshot-20230114-202434-ins-icon,
 .screenshot-20230114-202447-ins-icon {
   position: absolute;
-  top: 240px;
-  left: 640px;
+  top: 120px;
+  left: 780px;
   width: 519px;
   height: 777px;
   object-fit: cover;
 }
 .screenshot-20230114-202447-ins-icon {
-  left: 1195px;
+  left: 1395px;
   width: 358px;
   height: 404px;
 }
 .screenshot-20230115-024727-ins-icon {
   position: absolute;
-  top: 599px;
-  left: 186px;
+  top: 479px;
+  left: 240px;
   width: 418px;
   height: 418px;
   object-fit: cover;
@@ -355,17 +223,16 @@
 }
 .many-desktop-publishing-packag-parent {
   position: absolute;
-  top: 692px;
-  left: 1225px;
+  top: 594px;
+  left: 1400px;
   width: 437px;
   height: 303.72px;
 }
-.date-child
- {
+.date-child {
   position: absolute;
   top: 118px;
   left: -18px;
-  border-right: 2px solid var(--color-black);
+  border-right: 2px solid #000;
   box-sizing: border-box;
   width: 2px;
   height: 199px;
@@ -389,25 +256,25 @@
   width: 2px;
   height: 13px;
 }
-.date
-{
+.date {
   position: absolute;
   width: 100%;
-height: 391px;
-transform: rotate(0deg);
-/* transform-origin: 0 0; */
-text-align: center;
-font-size: 18px;
-color: #000;
+  height: 391px;
+  transform: rotate(0deg);
+  /* transform-origin: 0 0; */
+  text-align: center;
+  font-size: 18px;
+  color: #000;
 }
 .date,
 .date-inner,
-.jun-2022{
+.jun-2022 {
   position: absolute;
 }
 .jun-2022 {
   top: 88px;
   left: -30px;
+  font-size: 18px;
   text-transform: uppercase;
   display: inline-block;
   width: 89px;
@@ -415,11 +282,9 @@ color: #000;
   transform-origin: 0 0;
 }
 .date {
-  top: 240px;
-  left: 1599px;
-  /* width: 24px; */
+  top: 120px;
+  left: 1799px;
   height: 391px;
-  /* text-align: center; */
 }
 .arrow-child,
 .links-icon {
@@ -437,13 +302,11 @@ color: #000;
   backdrop-filter: blur(14.2px);
   width: 94.66px;
   height: 53.93px;
-  /* transform: rotate(-180deg); */
   transform-origin: 0 0;
 }
 .vuesaxoutlinearrow-right-icon {
   position: absolute;
   height: 100%;
-  /* width: 100%; */
   top: 0;
   right: 100%;
   bottom: 100%;
@@ -468,36 +331,11 @@ color: #000;
 }
 .arrow {
   top: 328.93px;
-  left: 702.66px;
+  left: 845.66px;
   width: 94.66px;
   height: 53.93px;
 }
-.selin-boutique {
-  position: absolute;
-  top: 35px;
-  left: 66px;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 280px;
-  height: 18px;
-}
-.boutique-symbol-of-corset-on-h-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 55px;
-  height: 71px;
-  object-fit: cover;
-}
-.selin-boutique-parent {
-  position: absolute;
-  top: 81px;
-  left: 173px;
-  width: 346px;
-  height: 71px;
-  font-size: 20px;
-  font-family: var(--font-b612);
-}
+
 .summer {
   text-decoration: none;
   position: relative;
@@ -586,7 +424,7 @@ color: #000;
   overflow: hidden;
 }
 .links {
-  top: 64.31rem;
-  left: 11.56rem;
+  top: 56.81rem;
+  left: 14.56rem;
   width: 8.63rem;
 }

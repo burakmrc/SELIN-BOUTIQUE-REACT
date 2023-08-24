@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <Nav />
-      {/* <Routes>
-        <Route path="/summer" element={<Summer/>} />
+      <Routes>
+        <Route path="/" element={<Summer/>} />
         <Route path="/autumn" element={<Autumn/>} />
         <Route path="/spring" element={<Spring/>} />
         <Route path="/winter" element={<Winter/>} />
-      </Routes> */}
+      </Routes>
       <Footer />
     </>
   )

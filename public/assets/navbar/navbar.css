@@ -1,11 +1,11 @@
-.fasl-child {
+.fasl-child-nav {
     position: absolute;
     top: 0;
     left: 2.38rem;
     width: 0.13rem;
     height: 46.75rem;
   }
-  .summer {
+  .summer-nav {
     position: absolute;
     top: 24.56rem;
     left: 0;
@@ -13,9 +13,9 @@
     width: 4.25rem;
     cursor: pointer;
   }
-  .autumn1,
-  .spring,
-  .summer {
+  .autumn1-nav,
+  .spring-nav,
+  .summer-nav {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -24,7 +24,7 @@
     transform-origin: 0 0;
     cursor: pointer;
   }
-  .spring {
+  .spring-nav {
     position: absolute;
     top: 34.44rem;
     left: 0;
@@ -32,18 +32,18 @@
     width: 3.63rem;
     cursor: pointer;
   }
-  .autumn1 {
+  .autumn1-nav {
     top: 14.06rem;
     color: inherit;
     width: 4.06rem;
   }
-  .autumn1,
-  .summer-parent,
-  .winter {
+  .autumn1-nav,
+  .summer-parent-nav,
+  .winter-nav {
     position: absolute;
     left: 0;
   }
-  .winter {
+  .winter-nav {
     text-decoration: none;
     top: 3.75rem;
     text-transform: uppercase;
@@ -55,19 +55,19 @@
     transform-origin: 0 0;
     cursor: pointer;
   }
-  .summer-parent {
+  .summer-parent-nav {
     top: 0.06rem;
     width: 1.63rem;
     height: 34.44rem;
   }
-  .fasl {
+  .fasl-nav {
     position: absolute;
     top: 8rem;
     left: 5.13rem;
     width: 2.44rem;
     height: 46.75rem;
   }
-  .autumn {
+  .autumn-nav {
     position: relative;
     background-color: #fff;
     width: 100%;
@@ -79,32 +79,32 @@
     font-family: var(--font-archivo-narrow);
   }
 
-  .category,
-.latest {
+  .category-nav,
+.latest-nav {
   text-decoration: none;
   top: 0;
   text-transform: uppercase;
   display: inline-block;
 }
-.latest {
+.latest-nav {
   position: absolute;
   left: 0;
   color: inherit;
   width: 3.44rem;
   height: 1.5rem;
 }
-.category {
+.category-nav {
   left: 7.19rem;
   color: inherit;
   width: 5.13rem;
 }
-.category,
-.offers,
-.text {
+.category-nav,
+.offers-nav,
+.text-nav {
   position: absolute;
   height: 1.5rem;
 }
-.offers {
+.offers-nav {
   text-decoration: none;
   top: 0;
   left: 16.06rem;
@@ -113,7 +113,7 @@
   display: inline-block;
   width: 3.75rem;
 }
-.text {
+.text-nav {
   margin: 0;
   top: 0.75rem;
   left: 13rem;
@@ -123,23 +123,23 @@
   color: var(--color-black);
   font-family: var(--font-archivo-narrow);
 }
-.icons,
-.icons-child,
-.icons-item {
+.icons-nav,
+.icons-child-nav,
+.icons-item-nav {
   position: absolute;
   top: 0;
   height: 2.25rem;
 }
-.icons-child {
+.icons-child-nav {
   left: 0;
   width: 2.34rem;
 }
-.icons,
-.icons-item {
+.icons-nav,
+.icons-item-nav {
   left: 4.56rem;
   width: 2.25rem;
 }
-.icons {
+.icons-nav {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -147,7 +147,7 @@
   left: 41rem;
   width: 6.81rem;
 }
-.head-child {
+.head-child-nav {
   position: absolute;
   top: 1.94rem;
   left: 0;
@@ -155,7 +155,7 @@
   height: 0.13rem;
   object-fit: cover;
 }
-.head {
+.head-nav {
   position: absolute;
   top: 2.5rem;
   left: 55%;
@@ -163,7 +163,7 @@
   height: 2.25rem;
 }
 
-.selin-boutique {
+.selin-boutique-nav {
     text-decoration: none;
     position: absolute;
     top: 2.06rem;
@@ -174,19 +174,18 @@
     width: 17.5rem;
     height: 1.13rem;
   }
-  .boutique-symbol-of-corset-on-h {
+  .boutique-symbol-of-corset-on-h-icon-nav {
     text-decoration: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 3.69rem;
     height: 4.06rem;
-    background-image: url(./public/boutiquesymbolofcorsetonhangerinlineart8420ldcopy1@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
   }
-  .selin-boutique-parent {
+  .selin-boutique-parent-nav {
     position: absolute;
     top: 1rem;
     left: 10.69rem;
@@ -196,18 +195,18 @@
     font-family: var(--font-b612);
   }
 
-.summer.active {
+.summer-nav.active {
     color: #3cb87c;
 }
 
-.spring.active {
+.spring-nav.active {
     color: #3cb87c; 
 }
 
-.autumn1.active {
+.autumn1-nav.active {
     color: #d8996d; 
 }
 
-.winter.active {
+.winter-nav.active {
     color: #89cff0; 
 }

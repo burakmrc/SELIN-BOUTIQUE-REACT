@@ -1,153 +1,5 @@
-.category,
-.latest {
-  text-decoration: none;
-  top: 0;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.latest {
-  position: absolute;
-  left: 0;
-  color: var(--color-deeppink-100);
-  width: 3.44rem;
-  height: 1.5rem;
-}
-.category {
-  left: 7.19rem;
-  color: inherit;
-  width: 5.13rem;
-}
-.category,
-.offers,
-.text {
-  position: absolute;
-  height: 1.5rem;
-}
-.offers {
-  text-decoration: none;
-  top: 0;
-  left: 16.06rem;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 3.75rem;
-}
-.text {
-  margin: 0;
-  top: 0.75rem;
-  left: 13rem;
-  width: 19.81rem;
-  text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);
-  font-family: var(--font-archivo-narrow);
-}
-.icons,
-.icons-child,
-.icons-item {
-  position: absolute;
-  top: 0;
-  height: 2.25rem;
-}
-.icons-child {
-  left: 0;
-  width: 2.34rem;
-}
-.icons,
-.icons-item {
-  left: 4.56rem;
-  width: 2.25rem;
-}
-.icons {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  left: 41rem;
-  width: 6.81rem;
-}
-.head-child {
-  position: absolute;
-  top: 1.94rem;
-  left: 0;
-  width: 9.88rem;
-  height: 0.13rem;
-  object-fit: cover;
-}
-.head {
-  position: absolute;
-  top: 6.5rem;
-  left: 52.69rem;
-  width: 47.81rem;
-  height: 2.25rem;
-}
-.fasl-child {
-  position: absolute;
-  top: 0;
-  left: 2.38rem;
-  width: 0.13rem;
-  height: 48.53rem;
-}
-.summer {
-  position: absolute;
-  top: 24.56rem;
-  left: 0;
-  color: inherit;
-  width: 4.25rem;
-  cursor: pointer;
-}
-.autumn,
-.spring1,
-.summer {
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  height: 1.63rem;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-}
-.spring1 {
-  position: absolute;
-  top: 34.44rem;
-  left: 0;
-  color: var(--color-mediumseagreen-100);
-  width: 3.63rem;
-}
-.autumn {
-  top: 14.06rem;
-  color: inherit;
-  width: 4.06rem;
-  cursor: pointer;
-}
-.autumn,
-.summer-parent,
-.winter {
-  position: absolute;
-  left: 0;
-}
-.winter {
-  text-decoration: none;
-  top: 3.75rem;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 3.75rem;
-  height: 1.63rem;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-  cursor: pointer;
-}
-.summer-parent {
-  top: 0.06rem;
-  width: 1.63rem;
-  height: 34.44rem;
-}
-.fasl {
-  position: absolute;
-  top: 15rem;
-  left: 5.13rem;
-  width: 2.44rem;
-  height: 48.53rem;
+.links{
+  top: 500px !important;
 }
 .we-all-need {
   margin: 0;
@@ -231,7 +83,7 @@
 }
 .winter-collecction {
   position: absolute;
-  top: 41.13rem;
+  top: 33.63rem;
   left: 11.94rem;
   width: 23.5rem;
   height: 19.56rem;
@@ -240,7 +92,7 @@
 .screenshot-20230114-202320-ins-icon {
   position: absolute;
   top: 0;
-  left: 32.25rem;
+  left: 37.25rem;
   width: 27.63rem;
   height: 45.69rem;
   object-fit: cover;
@@ -249,13 +101,13 @@
 .screenshot-20230114-202306-ins-icon {
   position: absolute;
   top: 0;
-  left: 15.88rem;
+  left: 18.88rem;
   width: 15.13rem;
   height: 22.84rem;
   object-fit: cover;
 }
 .screenshot-20230114-202306-ins-icon {
-  left: 61.13rem;
+  left: 68.13rem;
 }
 .screenshot-20230115-032929-ins-icon {
   position: absolute;
@@ -268,14 +120,14 @@
 .screenshot-20230115-032942-ins-icon {
   position: absolute;
   top: 0;
-  left: 77rem;
+  left: 86rem;
   width: 15.13rem;
   height: 22.84rem;
   object-fit: cover;
 }
 .screenshot-20230114-202320-ins-parent {
   position: absolute;
-  top: 15rem;
+  top: 7.5rem;
   left: 11.94rem;
   width: 92.13rem;
   height: 45.69rem;
@@ -324,7 +176,7 @@
 }
 .arrow {
   top: 44.5rem;
-  left: 46.81rem;
+  left: 51.81rem;
   width: 5.19rem;
   height: 3.38rem;
 }
@@ -362,28 +214,12 @@
   transform-origin: 0 0;
 }
 .date {
-  top: 62.06rem;
+  top: 54.16rem;
   left: 44.19rem;
   width: 1.5rem;
   height: 27.63rem;
   text-align: center;
 }
-/* .trends,
-.trends-child {
-  width: 19.56rem;
-  height: 34.94rem;
-  transform: rotate(-90deg);
-}
-.trends-child {
-  top: 0;
-  left: 0;
-  background-color: rgba(250, 69, 146, 0.09);
-  backdrop-filter: blur(45.66px);
-}
-.trends {
-  top: 60.69rem;
-  left: 73.06rem;
-} */
 .many-desktop-publishing {
   margin: 0;
   position: absolute;
@@ -425,7 +261,7 @@
   width: 100%;
   right: 0;
   bottom: 0;
-  left: 20px;
+  left: -221px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -445,22 +281,22 @@
   width: 1.06rem;
 }
 .more-parent {
-  top: 16.69rem;
+  top: 14.69rem;
   left: 0;
   width: 3.94rem;
   font-size: 0.94rem;
 }
 .many-desktop-publishing-packag-parent {
   position: absolute;
-  top: 42.38rem;
-  left: 89.44rem;
+  top: 35.38rem;
+  left: 98.44rem;
   width: 14.63rem;
   height: 16.3rem;
 }
 .screenshot-20230115-024727-ins-icon {
   position: absolute;
-  top: 42.88rem;
-  left: 74.81rem;
+  top: 35.38rem;
+  left: 82.81rem;
   width: 12.75rem;
   height: 16.06rem;
   object-fit: cover;
@@ -486,8 +322,8 @@
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 0;
-  left: 3.5rem;
+  top: 78%;
+  left: 85%;
   width: 1.63rem;
   height: 1.63rem;
 }
@@ -507,8 +343,8 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 0;
-  left: 7rem;
+  top: 78%;
+  left: 75%;
   width: 1.63rem;
   height: 1.63rem;
   overflow: hidden;
@@ -531,57 +367,13 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 78%;
+  left: 80%;
   width: 1.63rem;
   height: 1.63rem;
   overflow: hidden;
 }
-.links,
-.selin-boutique {
-  position: absolute;
-  top: 62.56rem;
-  left: 93.44rem;
-  width: 8.63rem;
-  height: 1.63rem;
-}
-.selin-boutique {
-  text-decoration: none;
-  top: 2.06rem;
-  left: 4.38rem;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 17.5rem;
-  height: 1.13rem;
-}
-.boutique-symbol-of-corset-on-h {
-  text-decoration: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 3.69rem;
-  height: 4.13rem;
-  background-image: url(../spring/boutiquesymbolofcorsetonhangerinlineart8420ldcopy3@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.selin-boutique-parent,
-.spring {
-  text-align: left;
-  color: var(--color-black);
-}
-.selin-boutique-parent {
-  margin: 0;
-  position: absolute;
-  top: 5.19rem;
-  left: 10.56rem;
-  width: 21.88rem;
-  height: 4.13rem;
-  font-size: 1.25rem;
-  font-family: var(--font-b612);
-}
+
 .spring {
   position: relative;
   background-color: #fff;

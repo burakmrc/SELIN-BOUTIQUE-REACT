@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-
 function Nav({ currentSeason, onClickSeason }) {
-  const [selectedSeason, setSelectedSeason] = useState("autumn1");
+  const [selectedSeason, setSelectedSeason] = useState("autumn1-nav");
 
   const handleSeasonClick = (season) => {
     setSelectedSeason(season);
@@ -13,53 +12,51 @@ function Nav({ currentSeason, onClickSeason }) {
     <>
       <link rel="stylesheet" href="../../public/assets/navbar/navbar.css" />
       {
-        <div className="fasl">
+        <div className="fasl-nav">
           <img
-            className="fasl-child"
+            className="fasl-child-nav"
             alt=""
             src="../../public/autumn/line-3.svg"
           />
-          <div className="summer-parent">
-            <a
-              className={`summer ${
-                currentSeason === "summer" ? "active" : ""
-              }`}
+          <div className="summer-nav-parent">
+            <NavLink
+              className={`summer-nav ${currentSeason === "summer-nav" ? "active" : ""}`}
               id="summer"
+              to="/"
               onClick={() => onClickSeason("summer")}
             >
               Summer
-            </a>
-            <a
-              className={`spring ${
-                currentSeason === "spring" ? "active" : ""
-              }`}
+            </NavLink>
+            <NavLink
+              className={`spring-nav ${currentSeason === "spring-nav" ? "active" : ""}`}
               id="spring"
+              to="/spring"
               onClick={() => onClickSeason("spring")}
             >
-              spring
-            </a>
-            <a
-              className={`autumn1 ${
-                currentSeason === "autumn1" ? "active" : ""
+              Spring
+            </NavLink>
+            {/* <Route path="/autumn" exact={true} element={<Autumn />} /> */}
+            <NavLink
+              className={`autumn1-nav ${
+                currentSeason === "autumn1-nav" ? "active" : ""
               }`}
-              id="autumn1"
-              onClick={() => onClickSeason("autumn1")}
+              id="autumn"
+              to="/autumn"
+              onClick={() => onClickSeason("autumn")}
             >
-              autumn
-            </a>
-            <a
-              className={`winter ${
-                currentSeason === "winter" ? "active" : ""
-              }`}
+              Autumn
+            </NavLink>
+            <NavLink
+              className={`winter-nav ${currentSeason === "winter-nav" ? "active" : ""}`}
               id="winter"
+              to="/winter"
               onClick={() => onClickSeason("winter")}
             >
               Winter
-            </a>
+            </NavLink>
           </div>
         </div>
       }
-      
     </>
   );
 }

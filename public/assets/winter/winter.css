@@ -17,146 +17,7 @@ body {
   --color-skyblue-100: #89cff0;
 }
 
-.category,
-.latest {
-  text-decoration: none;
-  top: 0;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.latest {
-  position: absolute;
-  left: 0;
-  color: var(--color-skyblue-100);
-  width: 55px;
-  height: 24px;
-}
-.category {
-  left: 115px;
-  color: inherit;
-  width: 82px;
-}
-.category,
-.offers,
-.text {
-  position: absolute;
-  height: 24px;
-}
-.offers {
-  text-decoration: none;
-  top: 0;
-  left: 257px;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 60px;
-}
-.text {
-  margin: 0;
-  top: 12px;
-  left: 208px;
-  width: 317px;
-  text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);
-  font-family: var(--font-archivo-narrow);
-}
-.icons,
-.icons-child,
-.icons-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 37.5px;
-  height: 36px;
-}
-.icons,
-.icons-item {
-  left: 73px;
-  width: 36px;
-}
-.icons {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  left: 656px;
-  width: 109px;
-}
-.head-child {
-  position: absolute;
-  top: 31px;
-  left: 0;
-  width: 158px;
-  height: 2px;
-  object-fit: cover;
-}
-.head {
-  position: absolute;
-  top: 104px;
-  left: 843px;
-  width: 765px;
-  height: 36px;
-}
-.fasl-child,
-.summer {
-  position: absolute;
-  top: 0;
-  left: 38px;
-  width: 2px;
-  height: 776.5px;
-}
-.summer {
-  top: 393px;
-  left: 0;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 68px;
-  height: 26px;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-  cursor: pointer;
-}
-.spring {
-  top: 551px;
-  width: 58px;
-  cursor: pointer;
-}
-.autumn,
-.spring,
-.winter1 {
-  position: absolute;
-  left: 0;
-  text-transform: uppercase;
-  display: inline-block;
-  height: 26px;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-}
-.autumn {
-  top: 225px;
-  width: 65px;
-  cursor: pointer;
-}
-.winter1 {
-  top: 60px;
-  color: var(--color-skyblue-100);
-  width: 60px;
-}
-.fasl,
-.summer-parent {
-  position: absolute;
-  top: 1px;
-  left: 0;
-  width: 26px;
-  height: 551px;
-}
-.fasl {
-  top: 240px;
-  left: 82px;
-  width: 39px;
-  height: 776.5px;
-}
+
 .date-child {
   position: absolute;
   top: 115px;
@@ -195,8 +56,8 @@ body {
   transform-origin: 0 0;
 }
 .date {
-  top: 610px;
-  left: 646px;
+  top: 490px;
+  left: 846px;
   width: 18px;
   height: 388px;
   text-align: center;
@@ -282,8 +143,8 @@ body {
 }
 .winter-collecction {
   position: absolute;
-  top: 240px;
-  left: 186px;
+  top: 120px;
+  left: 236px;
   width: 376px;
   height: 315.62px;
   font-size: 23px;
@@ -339,8 +200,8 @@ body {
 .photos,
 .trends-child {
   position: absolute;
-  top: 240px;
-  left: 686px;
+  top: 120px;
+  left: 886px;
   width: 962px;
   height: 758.37px;
 }
@@ -443,8 +304,8 @@ body {
 }
 .trends {
   position: absolute;
-  top: 626px;
-  left: 156px;
+  top: 506px;
+  left: 206px;
   width: 347px;
   height: 491px;
 }
@@ -523,8 +384,8 @@ body {
 .image-1-icon,
 .links {
   position: absolute;
-  top: 1038px;
-  left: 1475px;
+  top: 918px;
+  left: 1675px;
   width: 138px;
   height: 26px;
 }
@@ -535,17 +396,7 @@ body {
   height: 66px;
   object-fit: cover;
 }
-.selin-boutique {
-  text-decoration: none;
-  position: absolute;
-  top: 33px;
-  left: 68px;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 280px;
-  height: 18px;
-}
+
 .image-1-parent,
 .winter {
   text-align: left;

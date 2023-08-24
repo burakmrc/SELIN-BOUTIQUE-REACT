@@ -1,28 +1,22 @@
 import React from "react";
 // import "../../public/assets/winter/winter.css"
-function Winter (){
-   return(
+function Winter() {
+  return (
     <>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <link
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1, width=device-width" />
+      <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Archivo Narrow:wght@400&display=swap"
-        />
-        <link
+      />
+      <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=B612:wght@400&display=swap"
-        />
-        <link rel="stylesheet" href="../../public/assets/winter/winter.css" />
-        <div className="winter">
-        <nav className="image-1-parent" logo="">
-            <img
-            className="image-1-icon"
-            alt=""
-            src="../../public/winter/image-1@2x.png"
-            />
-            {/* <a className="selin-boutique">SELIN BOUTIQUE</a> */}
-        </nav>
+      />
+      <link rel="stylesheet" href="../../public/assets/winter/winter.css" />
+      <div className="winter">
+         
+          {/* <a className="selin-boutique">SELIN BOUTIQUE</a> */}
         {/* <div className="head">
             <nav className="text">
             <a className="latest">Latest</a>
@@ -51,106 +45,118 @@ function Winter (){
             </nav>
         </div> */}
         <div className="date">
-            <div className="date-child" />
-            <div className="date-item" />
-            <div className="date-inner" />
-            <div className="jan-2023">14 JAN 2023</div>
+          <div className="date-child" />
+          <div className="date-item" />
+          <div className="date-inner" />
+          <div className="jan-2023">14 JAN 2023</div>
         </div>
         <div className="winter-collecction">
-            <p className="we-all-need">
-            We all need some fashion inspiration to accept ourselves and dress up in
-            clothes that express our personality.
-            </p>
-            <h1 className="winter-collection">WINTER COLLECTION</h1>
-            <div className="explore-parent">
+          <p className="we-all-need">
+            We all need some fashion inspiration to accept ourselves and dress
+            up in clothes that express our personality.
+          </p>
+          <h1 className="winter-collection">WINTER COLLECTION</h1>
+          <div className="explore-parent">
             <h4 className="explore">Explore</h4>
             <button className="arrow-right"></button>
             <button className="vuesaxoutlinearrow-right">
-                <img
+              <img
                 className="arrow-right-icon"
                 alt=""
                 src="../../public/winter/arrowright.svg"
-                />
+              />
             </button>
-            </div>
+          </div>
         </div>
         <div className="photos">
-            <img
+          <img
             className="screenshot-20230114-201413-ins-icon"
             alt=""
             src="../../public/winter/screenshot-20230114-201413-instagram@2x.png"
-            />
-            <img
+          />
+          <img
             className="screenshot-20230114-201718-ins-icon"
             alt=""
             src="../../public/winter/screenshot-20230114-201718-instagram@2x.png"
-            />
-            <img
+          />
+          <img
             className="screenshot-20230114-202936-ins-icon"
             alt=""
             src="../../public/winter/screenshot-20230114-202936-instagram@2x.png"
-            />
-            <button className="arrow">
+          />
+          <button className="arrow">
             <div className="arrow-child" />
             <img
-                className="arrow-right-icon1"
-                alt=""
-                src="../../public/winter/arrowright1.svg"
+              className="arrow-right-icon1"
+              alt=""
+              src="../../public/winter/arrowright1.svg"
             />
-            </button>
+          </button>
         </div>
         <div className="trends">
-            <section className="trends-child" />
-            <div className="screenshot-20230114-201659-ins-parent">
+          <section className="trends-child" />
+          <div className="screenshot-20230114-201659-ins-parent">
             <img
-                className="screenshot-20230114-201659-ins-icon"
-                alt=""
-                src="../../public/winter/screenshot-20230114-201659-instagram@2x.png"
+              className="screenshot-20230114-201659-ins-icon"
+              alt=""
+              src="../../public/winter/screenshot-20230114-201659-instagram@2x.png"
             />
             <img
-                className="screenshot-20230114-201938-ins-icon"
-                alt=""
-                src="../../public/winter/screenshot-20230114-201938-instagram@2x.png"
+              className="screenshot-20230114-201938-ins-icon"
+              alt=""
+              src="../../public/winter/screenshot-20230114-201938-instagram@2x.png"
             />
             <img
-                className="screenshot-20230114-202949-ins-icon"
-                alt=""
-                src="../../public/winter/screenshot-20230114-202949-instagram@2x.png"
+              className="screenshot-20230114-202949-ins-icon"
+              alt=""
+              src="../../public/winter/screenshot-20230114-202949-instagram@2x.png"
             />
-            </div>
-            <p className="many-desktop-publishing">
+          </div>
+          <p className="many-desktop-publishing">
             Many desktop publishing packages and web page sites still in their
-            infancy.Many desktop publishing packages and web page and a search for
-            'lorem ipsum' will uncover many web sites still in their infancy.
-            </p>
-            <h2 className="trends1">Trends</h2>
-            <div className="more-parent">
+            infancy.Many desktop publishing packages and web page and a search
+            for 'lorem ipsum' will uncover many web sites still in their
+            infancy.
+          </p>
+          <h2 className="trends1">Trends</h2>
+          <div className="more-parent">
             <span className="more">More</span>
             <button className="arrow-right1"></button>
             <button className="vuesaxoutlinearrow-right">
-                <img
+              <img
                 className="arrow-right-icon2"
                 alt=""
                 src="../../public/winter/arrowright2.svg"
-                />
+              />
             </button>
-            </div>
+          </div>
         </div>
         <div className="links">
-            <button className="phinstagram-logo">
-            <img className="vector-icon" alt="" src="../../public/winter/vector.svg" />
-            </button>
-            <button className="icbaseline-whatsapp">
-            <img className="vector-icon1" alt="" src="../../public/winter/vector1.svg" />
-            </button>
-            <button className="phpinterest-logo-bold">
-            <img className="vector-icon2" alt="" src="../../public/winter/vector2.svg" />
-            </button>
+          <button className="phinstagram-logo">
+            <img
+              className="vector-icon"
+              alt=""
+              src="../../public/winter/vector.svg"
+            />
+          </button>
+          <button className="icbaseline-whatsapp">
+            <img
+              className="vector-icon1"
+              alt=""
+              src="../../public/winter/vector1.svg"
+            />
+          </button>
+          <button className="phpinterest-logo-bold">
+            <img
+              className="vector-icon2"
+              alt=""
+              src="../../public/winter/vector2.svg"
+            />
+          </button>
         </div>
-        </div>
+      </div>
     </>
-  
-   )
+  );
 }
 
 export default Winter;

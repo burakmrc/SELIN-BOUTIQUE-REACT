@@ -17,169 +17,18 @@ body {
   --color-darksalmon-100: #d8996d;
 }
 
-.category,
-.latest {
-  text-decoration: none;
-  top: 0;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.latest {
-  position: absolute;
-  left: 0;
-  color: var(--color-darksalmon-100);
-  width: 3.44rem;
-  height: 1.5rem;
-}
-.category {
-  left: 7.19rem;
-  color: inherit;
-  width: 5.13rem;
-}
-.category,
-.offers,
-.text {
-  position: absolute;
-  height: 1.5rem;
-}
-.offers {
-  text-decoration: none;
-  top: 0;
-  left: 16.06rem;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 3.75rem;
-}
-.text {
-  margin: 0;
-  top: 0.75rem;
-  left: 13rem;
-  width: 19.81rem;
-  text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);
-  font-family: var(--font-archivo-narrow);
-}
-.icons,
-.icons-child,
-.icons-item {
-  position: absolute;
-  top: 0;
-  height: 2.25rem;
-}
-.icons-child {
-  left: 0;
-  width: 2.34rem;
-}
-.icons,
-.icons-item {
-  left: 4.56rem;
-  width: 2.25rem;
-}
-.icons {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  left: 41rem;
-  width: 6.81rem;
-}
-.head-child {
-  position: absolute;
-  top: 1.94rem;
-  left: 0;
-  width: 9.88rem;
-  height: 0.13rem;
-  object-fit: cover;
-}
-.head {
-  position: absolute;
-  top: 6.5rem;
-  left: 52.69rem;
-  width: 47.81rem;
-  height: 2.25rem;
-}
-.fasl-child {
-  position: absolute;
-  top: 0;
-  left: 2.38rem;
-  width: 0.13rem;
-  height: 46.75rem;
-}
-.summer {
-  position: absolute;
-  top: 24.56rem;
-  left: 0;
-  color: inherit;
-  width: 4.25rem;
-  cursor: pointer;
-}
-.autumn1,
-.spring,
-.summer {
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  height: 1.63rem;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-}
-.spring {
-  position: absolute;
-  top: 34.44rem;
-  left: 0;
-  color: inherit;
-  width: 3.63rem;
-  cursor: pointer;
-}
-.autumn1 {
-  top: 14.06rem;
-  color: var(--color-darksalmon-100);
-  width: 4.06rem;
-}
-.autumn1,
-.summer-parent,
-.winter {
-  position: absolute;
-  left: 0;
-}
-.winter {
-  text-decoration: none;
-  top: 3.75rem;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 3.75rem;
-  height: 1.63rem;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-  cursor: pointer;
-}
-.summer-parent {
-  top: 0.06rem;
-  width: 1.63rem;
-  height: 34.44rem;
-}
-.fasl {
-  position: absolute;
-  top: 15rem;
-  left: 5.13rem;
-  width: 2.44rem;
-  height: 46.75rem;
-}
 .screenshot-20230114-201504-ins-icon {
   position: absolute;
-  top: 15rem;
-  left: 11.56rem;
+  top: 7.5rem;
+  left: 14.56rem;
   width: 38.13rem;
   height: 46.81rem;
   object-fit: cover;
 }
 .screenshot-20230114-201744-ins-icon {
   position: absolute;
-  top: 15.06rem;
-  left: 50.63rem;
+  top: 7.5rem;
+  left: 59.63rem;
   width: 22.19rem;
   height: 29.69rem;
   object-fit: cover;
@@ -187,59 +36,60 @@ body {
 .screenshot-20230114-202012-ins-icon,
 .screenshot-20230114-202808-ins-icon {
   position: absolute;
-  top: 45.69rem;
-  left: 50.63rem;
+  top: 38.2rem;
+  left: 59.63rem;
   width: 10.63rem;
   height: 16.13rem;
   object-fit: cover;
 }
 .screenshot-20230114-202012-ins-icon {
-  left: 62.19rem;
+  left: 71.19rem;
 }
 .date-child,
 .date-inner,
 .date-item {
   position: absolute;
-  top: 7.44rem;
-  left: -1.19rem;
-  width: 0.13rem;
-  height: 12.31rem;
+  top: 119px;
+  left: -19px;
+  width: 2px;
+  height: 197px;
   object-fit: cover;
 }
 .date-inner,
 .date-item {
-  top: 21rem;
-  height: 1.44rem;
+  top: 336px;
+  height: 23px;
 }
 .date-inner {
-  top: 23.75rem;
-  height: 0.69rem;
+  top: 380px;
+  height: 11px;
 }
 .date,
 .sep-2022 {
   position: absolute;
   transform-origin: 0 0;
 }
+.date,
+.date-inner,
+.sep-2022{
+  position: absolute;
+}
 .sep-2022 {
-  border: 0;
-  font-family: var(--font-archivo-narrow);
-  font-size: var(--font-size-lg);
-  background-color: transparent;
   top: 0;
   left: 0;
   text-transform: uppercase;
-  color: var(--color-black);
-  text-align: center;
   display: inline-block;
-  width: 5.56rem;
+  width: 89px;
   transform: rotate(90deg);
+  background-color: transparent;
+  border: 0;
+  color: #000;
+  /* transform-origin: 0 0; */
 }
 .date {
-  top: 37.31rem;
-  left: 75.69rem;
-  width: 1.5rem;
-  height: 24.44rem;
-  transform: rotate(180deg);
+  top: 482px;
+  left: 1363px;
+  height: 391px;
 }
 .vector-icon {
   height: 78.13%;
@@ -317,8 +167,8 @@ body {
   overflow: hidden;
 }
 .links {
-  top: 64.31rem;
-  left: 11.56rem;
+  top: 56.81rem;
+  left: 14.56rem;
   width: 8.63rem;
 }
 .we-all-need {
@@ -405,8 +255,8 @@ body {
 }
 .winter-collecction {
   position: absolute;
-  top: 15.06rem;
-  left: 80.69rem;
+  top: 8.01rem;
+  left: 93.69rem;
   width: 19.81rem;
   height: 20.16rem;
   font-size: 1.44rem;
@@ -505,8 +355,8 @@ body {
 }
 .trends {
   position: absolute;
-  top: 39.25rem;
-  left: 78.81rem;
+  top: 31.75rem;
+  left: 91.81rem;
   width: 21.69rem;
   height: 30.69rem;
 }
@@ -538,49 +388,18 @@ body {
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 17.28rem;
-  left: 71.56rem;
+  top: 10.60rem;
+  left: 80.60rem;
   width: 1.56rem;
   height: 1.56rem;
 }
 .arrow {
-  top: 17rem;
-  left: 70.44rem;
+  top: 10.28rem;
+  left: 80rem;
   width: 3.73rem;
   height: 2.13rem;
 }
-.selin-boutique {
-  text-decoration: none;
-  position: absolute;
-  top: 2.06rem;
-  left: 4.25rem;
-  text-transform: uppercase;
-  color: inherit;
-  display: inline-block;
-  width: 17.5rem;
-  height: 1.13rem;
-}
-.boutique-symbol-of-corset-on-h {
-  text-decoration: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 3.69rem;
-  height: 4.06rem;
-  background-image: url(../autumn/boutiquesymbolofcorsetonhangerinlineart8420ldcopy1@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.selin-boutique-parent {
-  position: absolute;
-  top: 5.19rem;
-  left: 10.69rem;
-  width: 21.75rem;
-  height: 4.06rem;
-  font-size: 1.25rem;
-  font-family: var(--font-b612);
-}
+
 .autumn {
   position: relative;
   background-color: #fff;
