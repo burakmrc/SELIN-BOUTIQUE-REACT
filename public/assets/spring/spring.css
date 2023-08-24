@@ -201,11 +201,12 @@
 }
 .apr-2022 {
   position: absolute;
-  top: 0;
+  top: 5px;
   left: 0;
   text-transform: uppercase;
   display: inline-block;
   width: 5.56rem;
+  font-size: 15px;
 }
 .date,
 .trends,
@@ -323,7 +324,7 @@
   padding: 0;
   background-color: transparent;
   top: 78%;
-  left: 85%;
+  left: 90%;
   width: 1.63rem;
   height: 1.63rem;
 }
@@ -344,7 +345,7 @@
   background-color: transparent;
   position: absolute;
   top: 78%;
-  left: 75%;
+  left: 93%;
   width: 1.63rem;
   height: 1.63rem;
   overflow: hidden;
@@ -368,7 +369,7 @@
   background-color: transparent;
   position: absolute;
   top: 78%;
-  left: 80%;
+  left: 87%;
   width: 1.63rem;
   height: 1.63rem;
   overflow: hidden;

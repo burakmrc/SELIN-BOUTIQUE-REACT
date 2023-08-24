@@ -46,11 +46,11 @@ function Footer() {
         />
       </div>
 
-      {/* {
+      {
         <div>
           <NavItem />
         </div>
-      } */}
+      }
     </>
   );
 }
