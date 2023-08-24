@@ -1,8 +1,10 @@
 import Nav from "./Nav";
-import NavItem from "./NavItem";
 import React, { useState } from "react";
+import useTheme from "../customHooks/useTheme";
 
 function Footer() {
+  const [theme, handleTheme] = useTheme()
+
   const [selectedSeason, setSelectedSeason] = useState("autumn1");
 
   const handleSeasonClick = (season) => {
@@ -27,7 +29,7 @@ function Footer() {
           <a className="category-nav">Category</a>
           <a className="offers-nav">Offers</a>
         </nav>
-        <button className="icons-nav">
+        <button onClick={handleTheme} className="icons-nav">
           <img
             className="icons-child-nav"
             alt=""
@@ -46,11 +48,11 @@ function Footer() {
         />
       </div>
 
-      {
+      {/* {
         <div>
           <NavItem />
         </div>
-      }
+      } */}
     </>
   );
 }
