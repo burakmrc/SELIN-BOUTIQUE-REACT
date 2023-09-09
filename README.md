@@ -33,4 +33,5 @@ Projeyi geliştirmek için aşağıdakileri yapabilirsiniz:
 
 ## Teşekkürler
 
-Bu projeyi oluşturmama izin veren Negin Alipour'a teşekkür ederim.
+Bu projeyi oluşturmama izin veren  [Negin Alipour](https://www.behance.net/neginapr)'a teşekkür ederim.
+https://www.behance.net/gallery/161563879/Responsive-website-Landing-Page
